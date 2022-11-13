@@ -1,0 +1,50 @@
+.wrapper{
+  display:flex;
+}
+
+.side_bar{
+  background-color:#ffffff;
+  width:300px;
+  height:100vh;
+
+
+}
+
+.main_chat{
+  background-color:#253141;
+  width:calc(100vw - 300px);
+  height:100vh;
+  padding:0 40px;
+}
+
+
+.side_bar1{
+  height:100px;
+  padding:0 20px;
+
+}
+
+.side_bar2{
+  background-color:#2F3E51;
+  height:calc(100vh - 100px);
+  padding:0 20px;
+
+}
+
+.main_chat1{
+  height:100px;
+  padding:0 40px;
+}
+
+.main_chat2{
+  background-color:#FAFAFA;
+  height:calc(100vh - 100pc - 90px);
+  padding-top:46px;
+  padding:46px 40px 0;
+}
+
+.main_chat3{
+  background-color:#DDDDDD;
+  height:90px;
+  padding:20px 40px;
+}
