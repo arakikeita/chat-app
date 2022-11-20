@@ -18,12 +18,12 @@ class RoomsController < ApplicationController
 
 
 
-private
+  private
 
-def room_params
-  params.require(:room).permit(:name, user_ids: [])
+  def room_params
+    params.require(:room).permit(:name, user_ids: [])
 
-end
+  end
 
 
 
